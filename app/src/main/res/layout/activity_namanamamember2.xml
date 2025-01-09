@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundnamamember"
+    tools:context=".Namanamamember2Activity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="NAMA MEMBER"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/freyabtn"
+        android:layout_width="136dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="121dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/freyajkt" />
+
+    <ImageButton
+        android:id="@+id/lulubtn"
+        android:layout_width="136dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="260dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/freyabtn"
+        android:src="@drawable/lulujkt" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/selanjutnya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:text="SELANJUTNYA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/back" />
+
+
+    <TextView
+        android:id="@+id/tentangfreya1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:text="NAMA 	       : Freya Jayawardana"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/freyabtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/tentangfreya2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TGL LAHIR : 13 Februari 2006"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@id/freyabtn"
+        app:layout_constraintTop_toBottomOf="@id/tentangfreya1" />
+
+    <TextView
+        android:id="@+id/tentangfreya3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="HOBI 	         : Membaca Novel"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/freyabtn"
+        app:layout_constraintTop_toBottomOf="@id/tentangfreya2" />
+
+
+    <TextView
+        android:id="@+id/tentangfreya4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="GENERASI  : Gen 7"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/freyabtn"
+        app:layout_constraintTop_toBottomOf="@id/tentangfreya3" />
+
+
+    <TextView
+        android:id="@+id/tentanglulu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="180dp"
+        android:text="NAMA 	       : Lulu Salsabila"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/lulubtn"
+        app:layout_constraintTop_toBottomOf="@+id/tentangfreya4" />
+
+    <TextView
+        android:id="@+id/tentanglulu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TGL LAHIR : 23 Oktober 2002"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/lulubtn"
+        app:layout_constraintTop_toBottomOf="@id/tentanglulu1" />
+
+    <TextView
+        android:id="@+id/tentanglulu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="HOBI 	         : Memasak"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/lulubtn"
+        app:layout_constraintTop_toBottomOf="@id/tentanglulu2" />
+
+    <TextView
+        android:id="@+id/tentanglulu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="GENERASI  : Gen 8"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/lulubtn"
+        app:layout_constraintTop_toBottomOf="@id/tentanglulu3" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

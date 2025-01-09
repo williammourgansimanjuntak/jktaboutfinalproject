@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundaboutapp"
+    tools:context=".Aboutjkt48Activity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:text="ABOUT JKT48"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tentangjkt48"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:text="JKT48 adalah grup idola asla Indonesia dan saudari AKB48 yang pertama diluar jepang, mengadopsi konsep AKB48 'idol you can meet', grup ini mengadakan pertunjukan rutin di theater terletak di fx Sudirman, Jakarta pusat, DKI Jakarta."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Sejarah JKT48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tentangjkt48" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Pembentukan JKT48 pertama kali diumumkan pada 11 September 2011 di sebuah acara AKB48 yang diadakan di Makuhari Messe di Chiba.[3] Wawancara untuk peserta berlangsung pada akhir bulan September, dengan audisi final untuk finalis pada 8 Oktober 2011-9 Oktober 2011.[2]
+
+Dari 1.200 orang pelamar yang diwawancara, 51 pelamar lolos seleksi tahap kedua.[8] Audisi tahap akhir berlangsung pada 2 November 2011. Setelah disaring kembali melalui tes menari Heavy Rotation dan menyanyikan lagu favorit, 28 orang peserta dinyatakan diterima.[8] Produser Yasushi Akimoto datang ke Jakarta untuk melakukan seleksi.
+
+Generasi pertama diperkenalkan pada tanggal 2 November 2011.[9] dan diperkenalkan di situs web resmi JKT48 pada tanggal 3 November 2011. Di antara 28 anggota, ada satu anggota yang berasal dari Jepang yang bernama Rena Nozawa yang tinggal di Jakarta.[9] Produser Yasushi Akimoto mengatakan JKT48 akan menjadi 'jembatan persahabatan antara Indonesia dan Jepang'. "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="44dp"
+        android:background="@color/white"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

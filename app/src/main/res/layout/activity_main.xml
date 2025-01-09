@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonMulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:text="Mulai"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textperkenalan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logojktabout"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textperkenalan"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="aplikasi ini adalah aplikasi untuk mencari informasi seputar jeketi48, mulai dari nama member, tanggal lahir member, hobi member JKT48, dan juga generasi member JKT48, tujuan diciptakan nya aplikasi ini adalah untuk membantu para fans JKT48 untuk mancari informasi dan juga mengurangi adanya informasi-informasi HOAX."
+        android:textColor="@android:color/holo_red_dark"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
